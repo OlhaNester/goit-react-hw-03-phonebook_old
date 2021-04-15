@@ -1,0 +1,35 @@
+.ul {
+  width: 350px;
+  padding-left: 0px;
+}
+.contact {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 5px 10px 2px rgba(33, 85, 49, 0.2);
+}
+
+.p {
+  margin-right: 0px;
+}
+
+.button {
+  border-radius: 20%;
+  height: 30px;
+  border: none;
+}
+.button:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 5px 10px 2px rgba(10, 18, 24, 0.2);
+  background-color: rgba(233, 69, 69, 0.774);
+  color: white;
+  border: 2px solid #e92f2f;
+}
+.button,
+.button:active,
+.button:focus {
+  outline: none;
+}

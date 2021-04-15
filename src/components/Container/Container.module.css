@@ -1,0 +1,14 @@
+.container {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  background-image: linear-gradient(
+    to top,
+    rgba(79, 235, 105, 0.808),
+    rgba(27, 138, 138, 0.671)
+  );
+  background-color: #f5fafa30;
+}
